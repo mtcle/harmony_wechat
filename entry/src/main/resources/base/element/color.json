@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "color_nav_bar",
+      "value": "#F0DCDCDC"
+    },
+    {
+      "name": "color_background",
+      "value": "#DCDCDC"
+    },
+    {
+      "name": "color_tabText_normal",
+      "value": "#69000000"
+    },
+    {
+      "name": "color_doubleLineList_primary_text",
+      "value": "#E6000000"
+    },
+    {
+      "name": "color_doubleLineList_secondary_text",
+      "value": "#79000000"
+    },
+    {
+      "name": "color_divider",
+      "value": "#10000000"
+    }
+  ]
+}

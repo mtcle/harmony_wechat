@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:chat_page_module"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        >
+
+        <DependentLayout
+            ohos:height="$float:nav_bar_height"
+            ohos:width="match_parent"
+            ohos:background_element="$color:color_nav_bar"
+            >
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:horizontal_center="true"
+                ohos:text="发现"
+                ohos:text_color="#000"
+                ohos:text_size="$float:font_size_big"
+                ohos:vertical_center="true"
+                >
+            </Text>
+        </DependentLayout>
+
+        <ListContainer
+            ohos:id="$+id:message_page_list"
+            ohos:height="match_parent"
+            ohos:width="match_parent">
+        </ListContainer>
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

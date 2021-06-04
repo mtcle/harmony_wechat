@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:mainstack"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:above="$id:bottom_dl"
+        >
+    </StackLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:bottom_dl"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:orientation="horizontal"
+        >
+
+        <DirectionalLayout
+            ohos:id="$+id:dl_wx"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:orientation="vertical"
+            ohos:weight="1"
+            >
+
+            <Image
+                ohos:id="$+id:img_wx"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_weixin_selected"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                >
+            </Image>
+
+            <Text
+                ohos:id="$+id:tv_wx"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                ohos:text="微信"
+                ohos:text_alignment="center"
+                ohos:text_color="#6B6B6B"
+                ohos:text_size="$float:font_size_small"
+                >
+            </Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:company_page_dl"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:orientation="vertical"
+            ohos:weight="1"
+            >
+
+            <Image
+                ohos:id="$+id:img_contact"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_contacts_normal"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                >
+            </Image>
+
+            <Text
+                ohos:id="$+id:company_page_text"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                ohos:text="通讯录"
+                ohos:text_alignment="center"
+                ohos:text_color="#6B6B6B"
+                ohos:text_size="$float:font_size_small"
+                >
+            </Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:chat_page_dl"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:orientation="vertical"
+            ohos:weight="1"
+            >
+
+            <Image
+                ohos:id="$+id:img_find"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_find_normal"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                >
+            </Image>
+
+            <Text
+                ohos:id="$+id:chat_page_text"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                ohos:text="发现"
+                ohos:text_alignment="center"
+                ohos:text_color="#6B6B6B"
+                ohos:text_size="$float:font_size_small"
+                >
+            </Text>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:mine_page_dl"
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:orientation="vertical"
+            ohos:weight="1"
+            >
+
+            <Image
+                ohos:id="$+id:mine_page_image"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_me_normal"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                >
+            </Image>
+
+            <Text
+                ohos:id="$+id:tv_me"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:layout_alignment="vertical_center|horizontal_center"
+                ohos:text="我"
+                ohos:text_alignment="center"
+                ohos:text_color="#6B6B6B"
+                ohos:text_size="$float:font_size_small"
+                >
+            </Text>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+</DependentLayout>

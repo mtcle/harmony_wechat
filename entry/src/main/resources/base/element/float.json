@@ -1,0 +1,176 @@
+{
+  "float": [
+    {
+      "name": "nav_bar_height",
+      "value": "45vp"
+    },
+    {
+      "name": "font_size_big",
+      "value": "20fp"
+    },
+    {
+      "name": "font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "font_size_small",
+      "value": "12fp"
+    },
+    {
+      "name": "max_padding_start",
+      "value": "24vp"
+    },
+    {
+      "name": "max_padding_end",
+      "value": "24vp"
+    },
+    {
+      "name": "height_background",
+      "value": "260vp"
+    },
+    {
+      "name": "height_backButton_touchTarget",
+      "value": "56vp"
+    },
+    {
+      "name": "width_backButton_touchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "height_appBar_Buttons",
+      "value": "24vp"
+    },
+    {
+      "name": "width_appBar_buttons",
+      "value": "24vp"
+    },
+    {
+      "name": "padding_appBar_buttons",
+      "value": "24vp"
+    },
+    {
+      "name": "default_height_upperCard",
+      "value": "295vp"
+    },
+    {
+      "name": "default_height_lowerCard",
+      "value": "215vp"
+    },
+    {
+      "name": "topMargin_contactsDetail_upperCard",
+      "value": "150vp"
+    },
+    {
+      "name": "topMargin_contacts_profile",
+      "value": "100vp"
+    },
+    {
+      "name": "height_contacts_profile",
+      "value": "108vp"
+    },
+    {
+      "name": "width_contacts_profile",
+      "value": "108vp"
+    },
+    {
+      "name": "textSize_contactsDetail_title",
+      "value": "20vp"
+    },
+    {
+      "name": "topMargin_contactsDetail_title",
+      "value": "60vp"
+    },
+    {
+      "name": "height_bottom_tab",
+      "value": "56vp"
+    },
+    {
+      "name": "height_tab",
+      "value": "24vp"
+    },
+    {
+      "name": "width_tab",
+      "value": "24vp"
+    },
+    {
+      "name": "textSize_tab",
+      "value": "10vp"
+    },
+    {
+      "name": "height_divider",
+      "value": "1vp"
+    },
+    {
+      "name": "height_doubleLineList",
+      "value": "65vp"
+    },
+    {
+      "name": "height_doubleLineList_text",
+      "value": "48vp"
+    },
+    {
+      "name": "textSize_userName",
+      "value": "20vp"
+    },
+    {
+      "name": "leftMargin_userName",
+      "value": "10vp"
+    },
+    {
+      "name": "bottomMargin_doubleLineList",
+      "value": "8vp"
+    },
+    {
+      "name": "topMargin_doubleLineList",
+      "value": "8vp"
+    },
+    {
+      "name": "height_DoubleLineList",
+      "value": "48vp"
+    },
+    {
+      "name": "bottomMargin_primaryText",
+      "value": "2vp"
+    },
+    {
+      "name": "textSize_primaryText",
+      "value": "16vp"
+    },
+    {
+      "name": "textSize_secondaryText",
+      "value": "12vp"
+    },
+    {
+      "name": "height_touchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "width_touchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "height_doubleLineList_button",
+      "value": "24vp"
+    },
+    {
+      "name": "width_doubleLineList_button",
+      "value": "24vp"
+    },
+    {
+      "name": "height_doubleLineList_switch",
+      "value": "20vp"
+    },
+    {
+      "name": "width_doubleLineList_switch",
+      "value": "36vp"
+    },
+    {
+      "name": "max_padding_appBar",
+      "value": "12vp"
+    },
+    {
+      "name": "start_margin_appBar",
+      "value": "16vp"
+    }
+  ]
+}

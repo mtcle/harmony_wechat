@@ -1,0 +1,68 @@
+{
+  "app": {
+    "bundleName": "com.mtcle.hmos.harmony_wechat",
+    "vendor": "mtcle",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.mtcle.hmos.harmony_wechat",
+    "name": "仿微信",
+    "mainAbility": "com.mtcle.hmos.harmony_wechat.SplashAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.mtcle.hmos.harmony_wechat.SplashAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "icon": "$media:icon",
+        "name": "com.mtcle.hmos.harmony_wechat.MainAbility",
+        "description": "",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+          "extra": ""
+        }
+      ]
+    }
+  }
+}
