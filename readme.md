@@ -10,5 +10,5 @@
 * 闪屏、页面跳转
 * tab页面
 * 类似fragment
-* ability跳转和ability_slice调整
-* 
+* ability跳转和ability_slice
+* list adapter加载 holder使用

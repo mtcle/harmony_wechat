@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:margin="10vp"
+        >
+        <Image
+            ohos:id="$+id:message_iconimage"
+            ohos:height="50vp"
+            ohos:width="40vp"
+            ohos:layout_alignment="center"
+            ohos:image_src="$media:ic_weixin_normal"
+            >
+        </Image>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            >
+            <Text
+                ohos:id="$+id:message_nicknametext"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="小可爱"
+                ohos:text_size="20vp"
+                ohos:top_margin="10vp"
+
+                >
+
+            </Text>
+            <Text
+                ohos:id="$+id:message_companynametext"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="腾讯"
+                ohos:text_size="18vp"
+                ohos:text_color="#5C5C5C"
+                ohos:top_margin="7vp"
+                >
+
+            </Text>
+
+            <Text
+                ohos:id="$+id:msg_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="你好"
+                ohos:text_size="18vp"
+                ohos:text_color="#5C5C5C"
+                ohos:top_margin="7vp"
+                >
+            </Text>
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+
+
+</DirectionalLayout>

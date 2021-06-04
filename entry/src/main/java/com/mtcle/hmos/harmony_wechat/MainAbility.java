@@ -14,7 +14,7 @@ import ohos.agp.components.Text;
 import ohos.agp.utils.Color;
 
 public class MainAbility extends FractionAbility implements Component.ClickedListener {
-    private DirectionalLayout job_pagedl, company_page_dl, chat_page_dl, mine_page_dl;
+
 
     private Image img_wx;
     private Image img_contact;
@@ -32,6 +32,7 @@ public class MainAbility extends FractionAbility implements Component.ClickedLis
 
 
     private void initComponent() {
+        DirectionalLayout job_pagedl, company_page_dl, chat_page_dl, mine_page_dl;
         img_wx = (Image) findComponentById(ResourceTable.Id_img_wx);
         img_contact = (Image) findComponentById(ResourceTable.Id_img_contact);
         img_find = (Image) findComponentById(ResourceTable.Id_img_find);
