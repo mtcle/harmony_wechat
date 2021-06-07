@@ -16,15 +16,15 @@ public abstract class CommonProvider<T> extends BaseItemProvider {
     /**
      * context
      */
-    private final Context context;
+    protected final Context context;
     /**
      * layout id
      */
-    private final int layoutId;
+    protected final int layoutId;
     /**
      * data
      */
-    private List<T> data;
+    protected List<T> data;
 
     /**
      * constructor of CommonProvider

@@ -3,69 +3,85 @@
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:height="match_content"
     ohos:width="match_parent"
+    ohos:padding="0vp"
     ohos:orientation="vertical">
 
 
-
-
     <DirectionalLayout
-        ohos:height="100vp"
+        ohos:height="60vp"
         ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:top_margin="4vp"
+        ohos:bottom_margin="4vp"
+        ohos:layout_alignment="vertical_center"
         ohos:orientation="horizontal"
-        ohos:margin="10vp"
         >
+
         <Image
-            ohos:id="$+id:message_iconimage"
-            ohos:height="50vp"
-            ohos:width="40vp"
-            ohos:layout_alignment="center"
+            ohos:id="$+id:img_icon"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:focus_border_radius="5vp"
             ohos:image_src="$media:ic_weixin_normal"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="stretch"
             >
         </Image>
 
         <DirectionalLayout
+            ohos:left_margin="10vp"
             ohos:height="match_parent"
-            ohos:width="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:alignment="vertical_center"
             ohos:orientation="vertical"
             >
+
             <Text
                 ohos:id="$+id:message_nicknametext"
                 ohos:height="match_content"
                 ohos:width="match_content"
                 ohos:text="小可爱"
-                ohos:text_size="20vp"
-                ohos:top_margin="10vp"
-
+                ohos:text_size="$float:font_size"
                 >
-
             </Text>
-            <Text
-                ohos:id="$+id:message_companynametext"
-                ohos:height="match_content"
-                ohos:width="match_content"
-                ohos:text="腾讯"
-                ohos:text_size="18vp"
-                ohos:text_color="#5C5C5C"
-                ohos:top_margin="7vp"
-                >
 
-            </Text>
 
             <Text
                 ohos:id="$+id:msg_text"
-                ohos:height="match_content"
-                ohos:width="match_content"
-                ohos:text="你好"
-                ohos:text_size="18vp"
-                ohos:text_color="#5C5C5C"
+                ohos:height="0"
+                ohos:width="100vp"
+                ohos:weight="1"
+                ohos:max_text_lines="1"
+                ohos:text="你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好"
+                ohos:text_color="#FF969696"
+                ohos:text_size="$float:font_size_small"
                 ohos:top_margin="7vp"
                 >
             </Text>
         </DirectionalLayout>
 
+        <DirectionalLayout
+            ohos:left_margin="10vp"
+            ohos:height="match_parent"
+            ohos:width="100vp"
+            ohos:alignment="right"
+            ohos:orientation="vertical"
+            >
 
+            <Text
+                ohos:id="$+id:tv_msg_time"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="刚刚"
+                ohos:text_color="#FF969696"
+                ohos:text_size="$float:font_size_small"
+                >
+            </Text>
+
+        </DirectionalLayout>
     </DirectionalLayout>
-
 
 
 </DirectionalLayout>

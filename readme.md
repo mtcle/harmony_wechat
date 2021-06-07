@@ -12,3 +12,5 @@
 * 类似fragment
 * ability跳转和ability_slice
 * list adapter加载 holder使用
+* glide 加载img、读取本地profile资源
+* json解析（Gson）

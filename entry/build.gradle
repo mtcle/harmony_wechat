@@ -19,6 +19,7 @@ ohos {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation 'io.openharmony.tpc.thirdlib:glide:1.0.6'
     testImplementation 'junit:junit:4.13'
     ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
 }

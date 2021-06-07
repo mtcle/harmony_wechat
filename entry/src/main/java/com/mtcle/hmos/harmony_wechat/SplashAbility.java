@@ -7,7 +7,7 @@ import ohos.aafwk.content.Operation;
 import ohos.app.Context;
 
 /**
- * 本页技术、页面调整
+ * 本页技术、页面跳转
  */
 public class SplashAbility extends Ability {
     private Context mContext;
